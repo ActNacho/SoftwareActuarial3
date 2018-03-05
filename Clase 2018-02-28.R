@@ -15,3 +15,8 @@ y2 <- dget(file="~/GitHub/SoftwareActuarial3/y.R")
 #mtcars en un archivo "Carros.R" y posteriormente
 #guardarlo en un data frame nuevo que se llame
 #Carros(TUNOMBRE) CarrosNacho
+
+mtcars
+dput(mtcars,file="~/GitHub/SoftwareActuarial3/Carros.R")
+CarrosNacho <- dget(file="~/GitHub/SoftwareActuarial3/Carros.R")
+CarrosNacho
